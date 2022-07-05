@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+/* variable de background-color: rgb(238, 196, 182); */
+/* variable font-family:Parisienne ;*/
+/* variable color:rgb(31, 96, 112) ;*/
+/* variable  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+body {
+  background-color: rgb(238, 196, 182);
+}
+
+.navbar {
+  background-image: linear-gradient(to right, white, rgb(187, 154, 154));
+  /******** gradiente al nav  *******/
+}
+.navbar #navbarNavAltMarkup {
+  /****** muevo el navbar a la izquierda****/
+  justify-content: end;
+  font-family: Parisienne;
+  font-size: 2em;
+}
+.navbar #navbarNavAltMarkup .navbar-nav a {
+  color: rgb(31, 96, 112);
+}
+.navbar .navbar-brand {
+  color: rgb(31, 96, 112);
+  font-family: Parisienne;
+  font-size: 2em;
+}
+
+header .carousel-inner h1 {
+  font-family: Parisienne;
+  /****** fuente elegida *****/
+  font-size: 90px;
+  margin: 20px;
+  font-weight: 500;
+  color: black;
+}
+header .carousel-inner p {
+  font-family: Parisienne;
+  /****le agrego una fuente descargada al carousel ****/
+  font-size: 50px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+main iframe {
+  width: 90%;
+  height: 50vh;
+  margin: 20px;
+}
+main p {
+  color: rgb(31, 96, 112);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+main h2, main h3, main h5 {
+  color: rgb(31, 96, 112);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .contacto {
+  border: 2px solid rgb(109, 27, 27);
+  border-radius: 12px;
+  padding: 1em;
+}
+main form {
+  border: 2px solid rgb(109, 27, 27);
+  border-radius: 12px;
+  padding: 2em;
+}
+main label {
+  color: rgb(31, 96, 112);
+}
+main .card {
+  border: 0;
+}
+main .card .card-body {
+  background-color: rgb(238, 196, 182);
+  justify-content: center;
+  border: 0;
+}
+
+footer {
+  text-align: center;
+}
+footer h5 {
+  margin: 1em;
+  color: rgb(31, 96, 112);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}/*# sourceMappingURL=estilo.css.map */
